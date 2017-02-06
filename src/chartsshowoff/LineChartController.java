@@ -40,7 +40,7 @@ public class LineChartController implements Initializable
 
         lineChart.setTitle("Rainfall per month");
 
-        XYChart.Series<Number, Number> series = new XYChart.Series<>();
+            XYChart.Series<Number, Number> series = new XYChart.Series<>();
         series.setName("" + year);
         year++;
 
